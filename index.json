@@ -17,7 +17,22 @@
       "text": "finish.md"
     }
   },
+  "assets": {
+    "client": [
+      {
+        "file": "challenge.sh",
+        "target": "/usr/local/bin/",
+        "chmod": "+x"
+      },
+      {
+        "file": "cheat.sh",
+        "target": "/usr/local/bin/",
+        "chmod": "+x"
+      }
+    ]
+  },
   "environment": {
+    "hidesidebar": true,
     "uilayout": "editor-terminal-split"
   },
   "backend": {
