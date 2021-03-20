@@ -8,8 +8,7 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "background": "background1.sh",
-        "files" : ["functionDeclarations.js"]
+        "background": "loadStep1.sh"
       },
       {
         "title": "Step 2",
@@ -40,6 +39,9 @@
         "text": "step8.md"
       }
     ],
+    "assets": {
+      "client": [{ "file": "*", "target": "/root/", "chmod": "+x" }]
+    },
     "intro": {
       "text": "intro.md"
     },
