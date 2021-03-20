@@ -9,7 +9,7 @@
         "title": "Step 1",
         "text": "step1.md",
         "background": "background1.sh",
-        "file" : "functionDeclarations.js"
+        "files" : ["functionDeclarations.js"]
       },
       {
         "title": "Step 2",
