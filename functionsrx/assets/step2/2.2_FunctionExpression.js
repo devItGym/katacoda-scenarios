@@ -1,6 +1,9 @@
+
+//What will be the output?
+
 console.log(squareNum(process.argv[2]));
 
-function squareNum(x) {
+var squareNum = function(x) {
 
   if(isNaN(x)){
       return "Incorrect input, please use a number"
@@ -8,5 +11,7 @@ function squareNum(x) {
       return x**=2;
   }
 }
+
+
 
 
