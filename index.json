@@ -1,0 +1,26 @@
+{
+  "title": "functionDeclaration01",
+  "description": "Goes over scope and function declarations",
+  "difficulty": "Intermediate",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal-split"
+  },
+  "backend": {
+    "imageid": "javascript"
+  }
+}
